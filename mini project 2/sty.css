@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white
+    min-height: 100vh;
+    
+    
+}    
+
+header {
+    background-color: #333;
+    color: white
+    
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    text-decoration: none;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+footer {
+    background-color: #000000;
+    color:white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Main Container Styles */
+.container, .admissions-info, .application-form {
+    background-color: rgba(143, 139, 138, 0.479);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.788);
+    max-width: 400px;
+    margin: 20px auto;
+    
+    
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    color: #555;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Ensure there's space between fields */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: vertical;
+    
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding:20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    
+    
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Thank You Page */
+.thank-you-container {
+    text-align: center;
+    background-color: rgba(85, 129, 102, 0.116);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.788);
+    max-width: 400px;
+    margin: 20px auto;
+    
+    
+    
+}
+
+.thank-you-container h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.thank-you-container p {
+    font-size: 10px;
+    margin-bottom: 20px;;
+}
+
+.thank-you-container a {
+    color: #333;
+    text-decoration: underline;
+    
+    font-size: 16px;
+}
+
+.thank-you-container a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
